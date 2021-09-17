@@ -35,5 +35,5 @@ mobile.tables.import('./tables');
 mobile.tables.initialize()
     .then(function () {
         app.use(mobile);    // Register the Azure Mobile Apps middleware
-        app.listen(process.env.PORT || 3000);   // Listen for requests
+        app.listen(process.env.PORT || 1433);   // Listen for requests
     });
